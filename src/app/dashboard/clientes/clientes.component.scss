@@ -1,0 +1,33 @@
+/* Estilos para tabletas */
+@media (min-width: 768px) {
+  .gallery {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .mat-mdc-card-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    background-image: url('../../../assets/img/default_profile_pic.jpg');
+    background-size: cover;
+    object-fit: cover;
+
+  }
+}
+
+/* Estilos para escritorios */
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    /* Estilos para tarjetas en escritorios */
+  }
+}

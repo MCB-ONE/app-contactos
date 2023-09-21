@@ -1,0 +1,11 @@
+.custom-sidenav {
+    width: 180px; /* Puedes ajustar el valor según tus necesidades */
+  }
+
+  /* Estilos para tabletas */
+@media (max-width: 480px) {
+    .custom-sidenav {
+        display: none;
+    }
+  }
+  
