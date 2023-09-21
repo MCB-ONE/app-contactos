@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Mobile-first styles */
+html,
+body {
+    height: 100%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+app-root, app-dashboard, mat-sidenav-container{
+    display: block;
+    height: 100%;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (min-width: 768px) {
+
+    /* Styles for tablets and desktops */
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* Styles for larger screens */
+    body {
+        font-size: 18px;
+    }
+}
