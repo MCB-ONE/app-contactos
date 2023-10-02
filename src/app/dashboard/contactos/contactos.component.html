@@ -1,0 +1,13 @@
+<mat-toolbar color="primary"> Contactos </mat-toolbar>
+<div class="gallery">
+    <mat-card *ngFor="let contacto of contactos">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>{{ contacto.name }}</mat-card-title>
+            <mat-card-subtitle>{{ contacto.email }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            {{ contacto.bio }}
+        </mat-card-content>
+    </mat-card>
+</div>
