@@ -6,7 +6,7 @@ import { Contacto } from '../models/Contacto';
 @Injectable({
   providedIn: 'root'
 })
-export class ContactosService {
+export class ContactoService {
   private apiUrl = 'https://localhost:7139/api/contacto';
 
   constructor(private http: HttpClient) { }

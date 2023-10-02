@@ -7,6 +7,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -20,9 +21,7 @@ import { RouterModule } from '@angular/router';
     //Dashboard modules
     MatSidenavModule,
     MatListModule,
-    MatCardModule,
-    ContactosModule,
-
+    MatCardModule
   ]
 })
 export class DashboardModule { }
