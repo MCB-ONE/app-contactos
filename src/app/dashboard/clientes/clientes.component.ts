@@ -7,18 +7,6 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
   styleUrls: ['./clientes.component.scss']
 })
 export class ClientesComponent implements OnInit{
-  clientes = [
-    { name: 'Cliente 1', email: 'cliente1@email.com', bio: 'Información sobre el Cliente 1' },
-    { name: 'Cliente 2', email: 'cliente2@email.com', bio: 'Información sobre el Cliente 2' },
-    { name: 'Cliente 1', email: 'cliente1@email.com', bio: 'Información sobre el Cliente 1' },
-    { name: 'Cliente 2', email: 'cliente2@email.com', bio: 'Información sobre el Cliente 2' },
-    { name: 'Cliente 1', email: 'cliente1@email.com', bio: 'Información sobre el Cliente 1' },
-    { name: 'Cliente 2', email: 'cliente2@email.com', bio: 'Información sobre el Cliente 2' },
-    { name: 'Cliente 1', email: 'cliente1@email.com', bio: 'Información sobre el Cliente 1' },
-    { name: 'Cliente 2', email: 'cliente2@email.com', bio: 'Información sobre el Cliente 2' },
-    // Agrega más clientes según sea necesario
-  ];
-
 
   cols!: number;
 

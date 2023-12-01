@@ -15,7 +15,7 @@ export class ListEffects {
   this.actions$.pipe(
     ofType(ListActions.readAllStart),
     mergeMap(() =>
-      this.httpClient.get<TipoEntidadContacto[]>(`${environment.url}/TipoEntidadContactos?`)
+      this.httpClient.get<TipoEntidadContacto[]>(`${environment.url}/tipoEntidadContactos`)
         .pipe(
           map((data: any) =>
           ListActions.readAllSuccess({ data }),
